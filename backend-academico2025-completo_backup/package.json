@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "@angular/common": "^20.2.4",
-    "@angular/core": "^20.2.4",
-    "@angular/localize": "^20.2.4",
-    "@angular/router": "^20.2.4",
-    "rxjs": "^7.8.2"
-  }
-}
