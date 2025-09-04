@@ -1,0 +1,23 @@
+<div class="container">
+  <h2>Alunos</h2>
+  <button (click)="novoAluno()">Novo Aluno</button>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th><th>Nome</th><th>Sexo</th><th>Data Nasc</th><th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let a of alunos">
+        <td>{{ a.idaluno }}</td>
+        <td>{{ a.nome }}</td>
+        <td>{{ a.sexo }}</td>
+        <td>{{ a.dtNasc }}</td>
+        <td>
+          <button (click)="editarAluno(a.idaluno!)">Editar</button>
+          <button (click)="deletarAluno(a.idaluno!)">Excluir</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

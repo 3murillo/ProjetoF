@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Novo Aluno</h2>
+  <label>Nome: <input [(ngModel)]="aluno.nome"></label><br>
+  <label>Sexo: <input [(ngModel)]="aluno.sexo"></label><br>
+  <label>Data Nasc: <input [(ngModel)]="aluno.dtNasc" placeholder="YYYY-MM-DD"></label><br>
+  <button (click)="salvar()">Salvar</button>
+  <button (click)="cancelar()">Cancelar</button>
+</div>

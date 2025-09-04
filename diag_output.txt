@@ -1,0 +1,74 @@
+﻿=== Lista arquivos frontend (até 20) ===
+C:\Users\M\projeto-final\app-academico20205-completo\.editorconfig
+C:\Users\M\projeto-final\app-academico20205-completo\.gitignore
+C:\Users\M\projeto-final\app-academico20205-completo\angular.json
+C:\Users\M\projeto-final\app-academico20205-completo\package-lock.json
+C:\Users\M\projeto-final\app-academico20205-completo\package.json
+C:\Users\M\projeto-final\app-academico20205-completo\README.md
+C:\Users\M\projeto-final\app-academico20205-completo\tsconfig.app.json
+C:\Users\M\projeto-final\app-academico20205-completo\tsconfig.json
+C:\Users\M\projeto-final\app-academico20205-completo\tsconfig.spec.json
+C:\Users\M\projeto-final\app-academico20205-completo\.vscode\extensions.json
+C:\Users\M\projeto-final\app-academico20205-completo\.vscode\launch.json
+C:\Users\M\projeto-final\app-academico20205-completo\.vscode\tasks.json
+C:\Users\M\projeto-final\app-academico20205-completo\public\favicon.ico
+C:\Users\M\projeto-final\app-academico20205-completo\public\sistema-escolar.png
+C:\Users\M\projeto-final\app-academico20205-completo\src\custom-theme.scss
+C:\Users\M\projeto-final\app-academico20205-completo\src\index.html
+C:\Users\M\projeto-final\app-academico20205-completo\src\main.ts
+C:\Users\M\projeto-final\app-academico20205-completo\src\styles.css
+C:\Users\M\projeto-final\app-academico20205-completo\src\app\app.config.ts
+C:\Users\M\projeto-final\app-academico20205-completo\src\app\app.css
+
+=== Lista arquivos backend (até 20) ===
+C:\Users\M\projeto-final\backend-academico2025-completo\.gitattributes
+C:\Users\M\projeto-final\backend-academico2025-completo\.gitignore
+C:\Users\M\projeto-final\backend-academico2025-completo\mvnw
+C:\Users\M\projeto-final\backend-academico2025-completo\mvnw.cmd
+C:\Users\M\projeto-final\backend-academico2025-completo\package-lock.json
+C:\Users\M\projeto-final\backend-academico2025-completo\package.json
+C:\Users\M\projeto-final\backend-academico2025-completo\pom.xml
+C:\Users\M\projeto-final\backend-academico2025-completo\README.md
+C:\Users\M\projeto-final\backend-academico2025-completo\.mvn\wrapper\maven-wrapper.properties
+C:\Users\M\projeto-final\backend-academico2025-completo\backend-academico2025-completo\.gitattributes
+C:\Users\M\projeto-final\backend-academico2025-completo\backend-academico2025-completo\.gitignore
+C:\Users\M\projeto-final\backend-academico2025-completo\backend-academico2025-completo\mvnw
+C:\Users\M\projeto-final\backend-academico2025-completo\backend-academico2025-completo\mvnw.cmd
+C:\Users\M\projeto-final\backend-academico2025-completo\backend-academico2025-completo\pom.xml
+C:\Users\M\projeto-final\backend-academico2025-completo\backend-academico2025-completo\README.md
+C:\Users\M\projeto-final\backend-academico2025-completo\backend-academico2025-completo\.mvn\wrapper\maven-wrapper.properties
+C:\Users\M\projeto-final\backend-academico2025-completo\backend-academico2025-completo\src\main\java\br\edu\ifgoias\academico\AcademicoApplication.java
+C:\Users\M\projeto-final\backend-academico2025-completo\backend-academico2025-completo\src\main\java\br\edu\ifgoias\academico\config\Config.java
+C:\Users\M\projeto-final\backend-academico2025-completo\backend-academico2025-completo\src\main\java\br\edu\ifgoias\academico\dto\AlunoCreateDTO
+C:\Users\M\projeto-final\backend-academico2025-completo\backend-academico2025-completo\src\main\java\br\edu\ifgoias\academico\dto\AlunoDTO.java
+
+=== Conteúdo .gitmodules (se existir) ===
+Nenhum .gitmodules encontrado.
+
+=== git ls-files -s app-academico20205-completo ===
+160000 6cd1b5063e89b34e80c143fe7da3d71b981ed872 0	app-academico20205-completo
+
+=== git ls-files -s backend-academico2025-completo ===
+160000 ffe8e1d8ad9be9da51e104b333f6a0c3d8de1ead 0	backend-academico2025-completo
+
+=== Conteúdo do .gitignore (raiz) ===
+# === Backend (Java/Maven) ===
+/backend-academico2025-completo/target/
+/backend-academico2025-completo/*.log
+/backend-academico2025-completo/*.class
+
+# === Frontend (Angular/Node) ===
+/app-academico20205-completo/node_modules/
+/app-academico20205-completo/dist/
+/app-academico20205-completo/.angular/
+/app-academico20205-completo/package-lock.json
+/app-academico20205-completo/npm-debug.log
+
+# === VSCode / IDEs ===
+.vscode/
+*.iml
+.idea/
+
+# === Sistema ===
+.DS_Store
+Thumbs.db
