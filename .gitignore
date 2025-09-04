@@ -1,0 +1,20 @@
+﻿# === Backend (Java/Maven) ===
+/backend-academico2025-completo/target/
+/backend-academico2025-completo/*.log
+/backend-academico2025-completo/*.class
+
+# === Frontend (Angular/Node) ===
+/app-academico20205-completo/node_modules/
+/app-academico20205-completo/dist/
+/app-academico20205-completo/.angular/
+/app-academico20205-completo/package-lock.json
+/app-academico20205-completo/npm-debug.log
+
+# === VSCode / IDEs ===
+.vscode/
+*.iml
+.idea/
+
+# === Sistema ===
+.DS_Store
+Thumbs.db
